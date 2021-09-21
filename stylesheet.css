@@ -1,0 +1,127 @@
+input::placeholder {
+    opacity: 0.5;
+    background-color: aliceblue;
+}
+
+.hidden {
+    display:none;
+    height: 0;
+}
+
+.header {
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+#error-show {
+    background-color: rgb(233, 101, 123);
+    border: solid 3px rgb(231, 19, 19);
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 2px;
+    border-radius: 10px;
+    color: black;
+}
+
+.nav-btn-row {
+    display:flex;
+    height: 30px;
+}
+
+.side {
+    flex: 1;
+    /* border: #ccc solid 1px; */
+    display:flex;
+    justify-content: flex-end;
+}
+
+#page-input {
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: sienna;
+}
+
+
+
+.header-center {
+    flex:2;
+    display:flex;
+    /* border: #ccc solid 1px; */
+    justify-content: space-evenly;
+
+}
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: sienna;
+}
+
+.comic-display, .comic-title {
+    display:flex;
+    justify-content: center;
+    width: 98.5vw;
+
+}
+
+.comic1-div, .comic2-div, .comic3-div {
+    flex: 1;
+    padding: 10px;
+    height: auto;
+    /* border: #ccc solid 1px; */
+}
+
+#comic1-title,  #comic2-title, #comic3-title {
+    flex: 1;
+    padding: 10px;
+    height: auto;
+    /* border: #ccc solid 1px; */
+    text-align: center;
+}
+
+#comic1, #comic2, #comic3 {
+    display:flex;
+    width: 100%;
+    
+}
+
+#loader-row {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.loader-box {
+    
+    flex: 1;
+    /* border: #ccc solid 1px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid sienna;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% { transform:rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+/* @media (max-width: 700px) {
+    .comic-display, .comic-title {
+        display:block;
+        justify-content: center;
+        width: 98.5vw;
+    
+    }
+} */

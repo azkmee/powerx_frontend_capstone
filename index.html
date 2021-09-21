@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Capstone Project</title>
+        <link rel='stylesheet' href='stylesheet.css'>
+    </head>
+
+    <body>
+        <div class= "header" id = 'comic-title'>
+            <div id="error-show">That comic hasnt been produced yet!</div>
+        </div>
+
+        <div class='nav-btn-row'>
+            <div class='side'></div>
+
+            <div class='header-center'>
+                <button type='button' id='prev'>
+                    < Prev
+                </button>
+                <button type='button' id='random'>
+                    Random
+                </button>
+                <button type='button' id='next'>
+                    Next >
+                </button>
+            </div>
+            
+            <div class='side'>
+                
+                <input type='number' id='page-input' placeholder=''> 
+                <button type='button' id='go-to'>Go To</button>
+                
+            </div>
+            
+        </div>
+
+        <div id='loader-row'>
+            <!-- <div class='loader' id='loader1'></div>
+            <div class='loader' id='loader2'></div>
+            <div class='loader' id='loader3'></div> -->
+            <div class='loader-box'>
+                <div class='loader' id='loader1'></div>
+            </div>
+            <div class='loader-box'>
+                <div class='loader' id='loader2'></div>
+            </div>
+            <div class='loader-box'>
+                <div class='loader' id='loader3'></div>
+            </div>
+        </div>
+    
+        <div class='comic-title'>
+            <div id = comic1-title></div>
+            <div id = comic2-title></div>
+            <div id = comic3-title></div>
+        </div>
+
+        <div class="comic-display" >
+            <div class = comic1-div>
+                
+                <img id = "comic1">
+            </div>
+            <div class = comic2-div>
+                
+                <img id = "comic2">
+            </div>
+            <div class = comic3-div>
+                <img id = "comic3">
+            </div>            
+        </div>
+
+    </body>
+    <script src='main.js'></script>
+</html>
